@@ -28,7 +28,7 @@ export default function Header({ onChangePage, currentPage }: HeaderProps) {
         >
           farmacologia avançada
         </h2>
-        <h2
+        {/* <h2
           className={`cursor-pointer hover:text-neutral-300 ${currentPage ==='pocao' && "font-extrabold text-green-400"}`}
           onClick={() => onChangePage("pocao")}
         >
@@ -39,7 +39,7 @@ export default function Header({ onChangePage, currentPage }: HeaderProps) {
           onClick={() => onChangePage("culinaria")}
         >
           culinária avançada
-        </h2>
+        </h2> */}
       </menu>
     </div>
   );
